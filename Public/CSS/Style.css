@@ -221,15 +221,14 @@ body{
 }
 .imagen1{
 	
-	background-image: url('../IMG/S1.jpg');
+	background-image: url('../IMG/s1.jpg');
 	background-size: 100% 100%;
-	min-width: ;
 	width: 100%;
 	height: 23rem;
 }
 .imagen2{
 	
-	background-image: url('../IMG/S2.jpg');
+	background-image: url('../IMG/s2.jpg');
 	background-size: 100% 100%;
 	width: 100%;
 	height: 23rem;
@@ -237,7 +236,7 @@ body{
 
 .imagen3{
 	
-	background-image: url('../IMG/S3.jpg');
+	background-image: url('../IMG/s3.jpg');
 	background-size: 100% 100%;
 	width: 100%;
 	height: 23rem;
@@ -245,7 +244,7 @@ body{
 
 .imagen4{
 	
-	background-image: url('../IMG/S4.jpg');
+	background-image: url('../IMG/s4.jpg');
 	background-size: 100% 100%;
 	width: 100%;
 	height: 23rem;
