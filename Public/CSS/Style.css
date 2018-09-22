@@ -117,10 +117,10 @@ body{
 	margin: auto;
 	border-radius:45px;
 	color:black;
-	padding-left:2%;
-	padding-right: 2%;
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-left:2rem;
+	padding-right: 2rem;
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
 	position: relative;
 	z-index:1;
 	color:white;
@@ -326,10 +326,9 @@ body{
 	padding-top: 1rem;
 }
 .botonsendmessage{
-	grid-column-start: 2;
-	padding-left: 55%;
-	margin-top: 3%;
-
+	
+	
+	
 	
 }
 .botonsendmessage a{
@@ -347,32 +346,38 @@ body{
 }
 .seccion6{
 	background-color: #F9F9FF;
-	padding-top: 7%;
-	padding-bottom: 7%; 
+	padding:7%;
 }
 .container6{
+	
+}
+.container6 div{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	
+
 }
 .container6 div input{
 	background-color: #FFFFFF;
 	border-radius: 45px;
 	border:1px solid white;
-	width: 100%;
+	width: 45%;
 	height: 3rem;
+	position: relative;
+	
 }
-.container6 div input::placeholder{
+.container6 input::placeholder{
 	color:black;
 	margin-left: 0;
+	padding-left: 3%;
 
 	
 }
 .container6 div a {
+	margin-left: 13%;
 	text-decoration: none;
-	margin-left: 500px;
-	margin-top: -50px;
 	border-radius:45px;
 	background-image: linear-gradient(to right, #3925A2, #AA55C7);
 
@@ -380,10 +385,14 @@ body{
 	padding-right: 0.8rem;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
-	position: relative;
-	z-index:1;
+	
+	
 	color:white;
 	font-size: 16px;
+	position: absolute;
+	
+	
+	
 
 	
 
@@ -453,34 +462,41 @@ footer{
 		margin: 0;
 		padding: 1%;
 	}
+	.imagenheader{
+		padding-bottom: 0;
+	}
 	.container2{
-		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+		grid-template-columns: repeat(1,100%);
 		margin: 0;
 	
 		
 	}
 	.container2text{
-		padding:0;
+		justify-content: center;
+		align-items: center;
 
 	}
 	.container2text a{
-		margin-left: 6rem;
-		margin-right: 2rem;
+		justify-content: center;
+		align-items: center;
 	}
 	.container2img{
 		margin-top: 3rem;
 	}
 
 	.container3{
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		grid-template-columns: repeat(1,100%);
+		
 		margin: 0;
 		padding: 0;
 
 		
 	}
 	.container3text{
-		padding: 0;
-		margin-bottom: 3rem;
+		justify-self: center;
+		justify-content: center;
+		align-items: center;
+		
 	}
 	.container3text a{
 		padding-left: 0.5rem;
@@ -488,7 +504,7 @@ footer{
 		margin-bottom: 
 	}
 	.container4{
-		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fill, 100%);
 		margin: 0;
 
 	}
@@ -497,6 +513,7 @@ footer{
 		padding: 2%;
 		margin: 2%;
 	}
+	.
 	.botonsendmessage{
 		padding-left:39%;
 	}
