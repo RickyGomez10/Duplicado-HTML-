@@ -517,6 +517,22 @@ footer{
 	.botonsendmessage{
 		padding-left:39%;
 	}
+
+	.container6 div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+		.container6 div input{
+			position: initial;
+			width: 100%;
+		}
+		.container6 div a {
+			position: initial;
+		}
 }
 
 
