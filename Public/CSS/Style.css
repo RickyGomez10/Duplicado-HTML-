@@ -63,7 +63,8 @@ body{
 	background-image: linear-gradient(to right, #3925A2, #AA55C7);
 	opacity: 0.9;
 	border-radius:45px;
-	transition: all 2s;
+	border:1px solid  #AA55C7;
+	transition: border 0.3s;
 }
 .headerflex{
 	display: flex;
@@ -209,6 +210,17 @@ body{
 	font-size: 16px;
 
 }
+.container3text a:hover{
+	content:"";
+	border:0px;
+
+	background-image: linear-gradient(to right, #3925A2, #AA55C7);
+	opacity: 0.9;
+	border-radius:45px;
+	border:1px solid  #AA55C7;
+	transition: border 0.3s;
+
+}
 .container4{
 		display: grid;
 		grid-template-columns: repeat(2,50%);
@@ -325,12 +337,7 @@ body{
 	padding-left: 2rem;
 	padding-top: 1rem;
 }
-.botonsendmessage{
-	
-	
-	
-	
-}
+
 .botonsendmessage a{
 	padding-left:2rem;
 	padding-right: 2rem;
@@ -343,6 +350,18 @@ body{
 	text-decoration: none;
 	
 
+}
+.botonsendmessage a:hover{
+	content:"";
+	border:0px;
+
+
+	background-image: linear-gradient(to right, #3925A2, #AA55C7);
+	opacity: 0.9;
+	border-radius:45px;
+	border:1px solid  #AA55C7;
+	transition: border 0.3s;
+	color:white;
 }
 .seccion6{
 	background-color: #F9F9FF;
@@ -376,7 +395,7 @@ body{
 	
 }
 .container6 div a {
-	margin-left: 13%;
+	margin-left: 11%;
 	text-decoration: none;
 	border-radius:45px;
 	background-image: linear-gradient(to right, #3925A2, #AA55C7);
